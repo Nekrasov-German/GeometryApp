@@ -8,6 +8,9 @@ public class Main {
         Triangle triangle = new Triangle(10.0, 10.0, 10.0);
         Circle circle = new Circle(10.0);
 
+        Cube cube = new Cube(12,12,12);
+        Sphere sphere = new Sphere(20);
+
         System.out.println(rectangle);
         System.out.println(triangle);
         System.out.println(circle);
@@ -25,5 +28,9 @@ public class Main {
 
         System.out.println(figureUtil.compareArea(rectangle, triangle));
         System.out.println(figureUtil.comparePerimeter(circle, rectangle));
+
+        System.out.println();
+        System.out.println(cube);
+        System.out.println(sphere);
     }
 }
