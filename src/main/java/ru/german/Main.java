@@ -23,10 +23,7 @@ public class Main {
 
         FigureUtil figureUtil = new FigureUtil();
 
-        if (figureUtil.compareArea(triangle, circle)) {
-            System.out.println("Площадь фигур равна.");
-        } else {
-            System.out.println("Площадь фигур не равна");
-        }
+        System.out.println(figureUtil.compareArea(rectangle, triangle));
+        System.out.println(figureUtil.comparePerimeter(circle, rectangle));
     }
 }
