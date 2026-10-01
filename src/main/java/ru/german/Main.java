@@ -20,5 +20,13 @@ public class Main {
 
         System.out.println("Area circle = " + circle.getArea());
         System.out.println("Perimeter circle = " + circle.getPerimeter());
+
+        FigureUtil figureUtil = new FigureUtil();
+
+        if (figureUtil.compareArea(triangle, circle)) {
+            System.out.println("Площадь фигур равна.");
+        } else {
+            System.out.println("Площадь фигур не равна");
+        }
     }
 }
